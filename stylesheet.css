@@ -1,0 +1,66 @@
+@font-face
+{
+    font-family: "Cardinal Alternate";
+    src: url("Cardinal-Alternate.ttf");
+}
+
+body
+{
+	background-color: dimgray;
+}
+
+details.artist
+{
+    cursor: pointer;
+}
+
+details.album
+{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+details.album > table
+{
+    margin-left: 40px;
+}
+
+h1
+{
+	text-align: center;
+	color: gold;
+	font-family: "Cardinal Alternate";
+	font-size: 75px;
+}
+
+h2, h3, h4
+{
+	color: ghostwhite;
+	font-family: 'Jost', sans-serif;
+}
+
+p
+{
+	color: dark;
+	text-align: justify;
+	font-family: 'Jost', sans-serif;
+}
+
+p.command
+{
+    background-color: black;
+    color: ghostwhite;
+    border-radius: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+tr:hover
+{
+    background-color: #D6EEEE;
+}
+
