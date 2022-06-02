@@ -82,7 +82,7 @@ artist_list = list(artist_album_song_dict)
 artist_list.sort()
 with open("SongList.html", "w") as list_file:
     print("<html>", file=list_file)
-    print("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">", file=list_file)
+    print("<head>", file=list_file)
     print("\t<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheet.css\">", file=list_file)
     print("\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">", file=list_file)
     print("\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>", file=list_file)
