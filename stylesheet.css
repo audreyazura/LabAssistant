@@ -28,9 +28,12 @@ details.album > table
 h1
 {
 	text-align: center;
-	color: gold;
 	font-family: "Cardinal Alternate";
 	font-size: 75px;
+	background-image: linear-gradient(#ffcd05, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
 }
 
 h2, h3, h4
