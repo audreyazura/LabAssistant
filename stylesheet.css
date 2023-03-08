@@ -49,7 +49,7 @@ p
 	font-family: 'Jost', sans-serif;
 }
 
-p.command
+input.command
 {
     background-color: black;
     color: ghostwhite;
